@@ -1,0 +1,124 @@
+body{
+  background-color: white;
+}
+h1{
+  color: red;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  a{
+    text-decoration: underline;
+    cursor: pointer;
+    color:hsl(207, 65%, 10%);
+
+}
+a:visited{
+    color: purple;
+}
+a:hover, a:focus{
+    color: hsl(189, 44%, 40%);
+    opacity: 0.8;
+    background-color: gold;
+    
+}
+a:active{
+    color: red;
+} 
+
+.box{
+    width: 100%;
+    text-align:center;
+}
+
+		/* CSS for navigation bar */
+		.navbar {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			background-color: darkcyan;
+			padding: 10px;
+      list-style-type: none;
+		}
+
+		/* CSS for navigation links */
+		.navbar a {
+			color: white;
+			text-decoration: none;
+			margin: 0 10px;
+			font-size: 18px;
+			font-weight: bold;
+		}
+    .navlist-right{
+      float:right;
+    }
+    #se{
+      color: rgb(194, 72, 72);
+    }
+    #do{
+      color: red;
+    }
+    #form1 {
+      display: none;
+    }
+    .container {
+      position: relative;
+      width: 50%;
+    }
+    
+    /* Make the image responsive */
+    .container img {
+      width: 100%;
+      height: auto;
+      align-self: center;
+    }
+    
+    /* Style the button and place it in the middle of the container/image */
+    .container .btn {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: rgb(5, 60, 60);
+      color: white;
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    
+    .container .btn:hover {
+      background-color: red;
+    }
+    .container {
+      display: block;
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+     .fe{
+      display: block;
+      width: 60%;
+      margin-left: 15pc;
+      margin-right: 15pc;
+    }
+
+     
+    
+    
+    
